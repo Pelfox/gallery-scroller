@@ -1,3 +1,5 @@
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Online-brightgreen)](http://pelfox.github.io/gallery-scroller)
+
 # Галерея изображений
 
 Репозиторий содержит исходный код галереи изображений, созданной на основе **React** и **TailwindCSS**.
