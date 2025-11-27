@@ -5,7 +5,7 @@ interface ControlsContainerProps {
   changeImage: (direction: 'next' | 'previous') => void;
 }
 
-export function ControlsContainer({changeImage}: ControlsContainerProps) {
+export function ControlsContainer({ changeImage }: ControlsContainerProps) {
   return (
     <div className="flex items-center justify-center gap-4">
       <ControlButton
@@ -23,5 +23,5 @@ export function ControlsContainer({changeImage}: ControlsContainerProps) {
         <ArrowBigRightIcon />
       </ControlButton>
     </div>
-  )
+  );
 }

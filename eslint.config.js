@@ -5,4 +5,5 @@ export default antfu({
   react: true,
   stylistic: false,
   prettier: true,
+  ignores: ['node_modules/**', '.idea/**', '.github/**', 'dist/**', 'build/**'],
 });
